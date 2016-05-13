@@ -1,0 +1,22 @@
+<template name="login">
+    
+    <form>
+        <div class="form-item-padding-10">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control" placeholder="please enter your username" aria-describedby="basic-addon1">
+            </div>
+        </div>
+        
+        <div class="form-item-padding-10">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-lock"></span></span>
+                <input type="password" class="form-control" placeholder="please enter your password" aria-describedby="basic-addon2">
+            </div>
+        </div>
+        
+        <div class="form-item-padding-15">
+            <button type="submit" class="btn btn-block btn-info">{{loginTips}}</button>
+        </div>
+    </form>
+</template>

@@ -1,0 +1,32 @@
+<template name="postItemInPersonalCenter">
+        {{> postItemDetailEmployeeListInPersonalCenter}}
+        {{> postItemDetailEditInPersonalCenter}}
+        {{> postItemDetailDeleteComfirmInPersonalCenter}}
+    
+       <div class="postItem-blue">
+           <div><b>{{title}}</b> <span class={{biddingTypeClass}}>{{biddingTypeText}}</span> 
+                <!--第一行的右侧--> <div class="btn-group  pull-right" role="group" >
+                                        <button type="button" class="btn btn-xs btn-primary" name="postItemEmployeeList">
+                                            <span class="glyphicon glyphicon-comment">
+                                                {{applicationPeopleList}}
+                                            </span>
+                                        </button>
+                    
+                                        <button type="button" class="btn btn-xs btn-primary" name="postItemDetailEdit">
+                                            <span class="glyphicon glyphicon-edit">
+                                                {{postReEditTips}}
+                                            </span>
+                                        </button>
+                                        
+                                        <button type="button" class="btn btn-xs btn-primary" name="postItemDetailDelete">
+                                            <span class="glyphicon glyphicon-remove">
+                                                {{postDeleteTips}}
+                                            </span>
+                                        </button>
+                <!--第一行的右侧--> </div>
+           </div>
+           <div>{{moneyTips}}{{money}}</div>
+           <div>{{publisherIdTips}}{{publisherId}}</div>
+           <div>{{postTimeTips}}{{postTime}}</div>
+    </div>
+</template>

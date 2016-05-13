@@ -1,0 +1,14 @@
+.postItem-blue {
+    color: #fff; background-color: #1E88E5;
+}
+
+.navbar-padding {
+    padding-top: 50px;
+}
+
+.textarea-resize-limit-vertical {
+    resize: vertical;
+    overflow: hidden;
+}
+
+

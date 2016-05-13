@@ -1,0 +1,15 @@
+<template name="validateContainer">
+        {{> yield "navbar"}}
+    
+    <div class="navbar-padding">
+    </div>
+    
+    
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-6 col-md-offset-3 content-fixed-50-percent">
+            {{> yield "content"}}
+            </div>
+        </div>
+    </div>
+</template>

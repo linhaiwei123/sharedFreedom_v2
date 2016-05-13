@@ -1,0 +1,37 @@
+<template name="postItemDetailDeleteComfirmInPersonalCenter">
+        <div class="modal fade" name="postItemDetailDeleteComfirmInPersonalCenter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog  modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                   
+                                <div class="container-fluid"> 
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                
+                                                      <input type="text" class="form-control" placeholder={{titleInputTips}} value={{title}}>
+                                               
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button type="button" class={{biddingTypeClass}} >{{biddingTypeText}}</button>
+                                            </div>
+                                        </div>
+                                </div> 
+                             
+                    </div>
+                    <div class="modal-body">
+                        {{content}}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">{{closeTips}}
+                    </button>
+                        <button type="button" class="btn btn-danger">
+                        {{postDeleteConfirmTips}}
+                    </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+</template>

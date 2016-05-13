@@ -1,0 +1,41 @@
+<template name="postEdit">
+    
+    <form>
+        <div class="form-item-padding-10">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-tag"></span></span>
+                <input type="text" class="form-control" placeholder="please enter your post title" aria-describedby="basic-addon1">
+            </div>
+        </div>
+        
+        <div class="form-item-padding-10">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-align-justify"></span></span>
+                <input type="password" class="form-control" placeholder="please enter your content" aria-describedby="basic-addon2">
+            </div>
+        </div>
+        
+        <div class="form-item-padding-10">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-phone"></span></span>
+                <input type="text" class="form-control" placeholder="please enter your telephone" aria-describedby="basic-addon2">
+            </div>
+        </div>
+        
+        <div class="form-item-padding-10">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-leaf"></span></span>
+                <input type="text" class="form-control" placeholder="please enter the money" aria-describedby="basic-addon2">
+            </div>
+        </div>
+        
+        <div class="form-item-padding-10">
+            <button type="button" class={{biddingTypeButton}}>{{biddingTypeText}}</button>
+        </div>
+        
+        <div class="form-item-padding-15">
+            <button type="button" class='btn btn-block btn-info'>{{postPublishTips}}</button>
+        </div>
+        
+    </form>
+</template>

@@ -1,0 +1,18 @@
+<template name="postItemInHome">
+       {{> postItemDetailInHome}}
+       
+       <div class="postItem-blue">
+           <div><b>{{title}}</b> <span class={{biddingTypeClass}}>{{biddingTypeText}}</span>
+                <!--第一行的右侧--> <div class="btn-group  pull-right" role="group" >
+                                            <button type="button" class="btn btn-xs btn-primary" name="postItemDetail">
+                                                <span class="glyphicon glyphicon-option-horizontal">
+                                                    {{seeDetailsTips}}
+                                                </span>
+                                            </button>
+                    <!--第一行的右侧--> </div>
+           </div>
+           <div>{{moneyTips}}{{money}}</div>
+           <div>{{publisherIdTips}}{{publisherId}}</div>
+           <div>{{postTimeTips}}{{postTime}}</div>
+    </div>
+</template>
